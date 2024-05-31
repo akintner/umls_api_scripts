@@ -1,6 +1,7 @@
 #This script returns codes based on an input file of UMLS CUIs, where each line in txt file is a separate CUI.
 #If no results are found for a specific CUI, this will be noted in output and output file.
 #Each set of results for a CUI is separated in the output file with '***'.
+#USAGE: python codes_by_concept.py -k YOUR_API_KEY -i cuis.txt -o output.txt -s SNOMEDCT_US
 
 import requests
 import argparse
