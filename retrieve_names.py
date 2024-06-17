@@ -1,6 +1,6 @@
 #This program returns atoms from CUI or code input.
 #If using a code, the source vocabulary must be specified.
-#Usage: python retrieve-_names.py -k YOUR_API_KEY -i C0018787
+#Usage: python retrieve_names.py -k YOUR_API_KEY -i C0018787
 
 import requests
 import argparse
